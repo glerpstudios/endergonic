@@ -27,7 +27,7 @@ FLUENT_INPUT_BG = "#F3F9FF"
 FLUENT_BORDER = "#BBDFFF"
 BUTTON_BG = "#E6F3FF"
 BUTTON_FG = "#004E8C"
-MASTER_FONT = "Syne"
+MASTER_FONT = "Arial"
 # --- Pro-Level Presets ---
 FREQ_PRESETS = {
     "Bass (20-150Hz)": (20, 150),
@@ -737,4 +737,5 @@ if __name__ == '__main__':
         except Exception: pass
 
     app = VisualizerGUI(root)
+
     root.mainloop()
